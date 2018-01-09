@@ -2,17 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-imageFiles = ['R5887 Plate 1 Column 2 (8).tif', 
-              'R5885 QC Column 1 and 2 (9).tif',
-              'R5887 Plate 1 Column 1 (8).tif',
-              'R5887 Plate 1 Column 3 (8).tif',
-              'R5887 Plate 1 Column 4 (6).tif',
-              'R5807 Plate 3 Column 1 (8).tif', 
-              'R5807 Plate 3 Column 2 (8).tif', 
-              'R5807 Plate 3 Column 3 (2) and 1-B08 (1) and 2-B08 (1).tif', 
-              'R5807 ReQC (2).tif', 
-              'R5876 ReQC (1) and R5877 ReQC (4).tif', 
-              '10D_R5807 Plate 3 Column 1 (8).tif']
+imageFiles = []
 
 templateLocation = ['lrg_ladder4_R5887 Plate 1 Column 2 (8).tif']
 
